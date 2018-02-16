@@ -1,0 +1,281 @@
+<h3 class='sans tracked f0 tt-u mb0 ml1 bold'>wilden ui</h3>
+<h2 class='mt0'>Type scale</h2>
+<hr>
+<p class='f3 mt5 measure'>
+  A type scale is part of a consistent visual rhythm.
+</p>
+<p class='measure'>
+  A type scale ensures all the text in the product is part of a set of harmonious proportions.
+  We've applied some tooling to the type scale to help site maintainers and content contributors
+  focus on their work without worrying about font sizes.
+  We’re using a slightly modified one-fifth scale from a base 16px for our fonts:
+</p>
+<div class='flex flex-baseline measure mt4 mb5'>
+  <div class='col-md-2 flex-end'>
+    <p class='f6 mt0 mb0'>A</p>
+    <code>5em <br/>.f6</code>
+  </div>
+  <div class='col-md-2 flex-end'>
+    <p class='f5 mt0 mb0'>A</p>
+    <code>3em <br/>.f5</code>
+  </div>
+  <div class='col-md-2 flex-end'>
+    <p class='f4 mt0 mb0'>A</p>
+    <code>2.25em <br/>.f4</code>
+  </div>
+  <div class='col-md-2 flex-end'>
+    <p class='f3 mt0 mb0'>A</p>
+    <code>1.5em <br/>.f3</code>
+  </div>
+  <div class='col-md-2 flex-end'>
+    <p class='f2 mt0 mb0'>A</p>
+    <code>1em <br/>.f2</code>
+  </div>
+  <div class='col-md-2 flex-end'>
+    <p class='f1 mt0 mb0'>A</p>
+    <code>0.875em <br/>.f1</code>
+  </div>
+  <div class='col-md-2 flex-end'>
+    <p class='f0 mt0 mb0'>A</p>
+    <code>0.625em <br/>.f0</code>
+  </div>
+</div>
+<p class='measure mb4'>
+    Sometimes you need a different font size
+    while keeping the html semantic. Luckily classes do not care
+    about the type of tag they are styling. The typescale is accessible through the
+    classes f0 through f6 regardless of the html it is styling.
+</p>
+
+<h3 class='sans tracked f0 tt-u mb1 bold'>Sample</h3>
+<h1 class='h1 mt0 serif lh-1 mb4'>Headline</h1>
+
+<h3 class='sans tracked f0 tt-u mb3 bold'>markup</h3>
+<pre class='code measure pa4 mb4'>
+&lt;h1&gt;Headline&lt;/h1&gt; | 
+&lt;h2 class='f5'>Headline&lt;/h1&gt; | 
+&lt;p class='f5 serif'&gt;Headline&lt;/p&gt;
+</pre>
+
+<h3 class='sans tracked f0 tt-u mb3 bold'>styles</h3>
+<pre class='code measure pa4 mb4'>
+font-size: 3em;
+@media screen and (min-width: $tablet-width){
+  font-size: 5em
+}
+</pre>
+<h3 class='sans tracked f0 tt-u mb0 mt6 ml1 bold'>wilden ui</h3>
+
+<h2 class='mt0'>Colors</h2>
+<hr>
+<p class='f3 mt5 measure'>
+  The pallette is part of brand consistency.
+</p>
+<p class='measure mb3'>
+  All colors in the pallette are set as variables in <code>_colors.scss</code>
+  and available as color property or background-color property classes.
+</p>
+<div class="row mv4">
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-mustard'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.mustard</code></p>
+    <p class='mt0'><code>.bg-mustard</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-tan-lt'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.light-tan</code></p>
+    <p class='mt0'><code>.bg-light-tan</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-tan'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.tan</code></p>
+    <p class='mt0'><code>.bg-tan</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-taupe'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.taupe</code></p>
+    <p class='mt0'><code>.bg-taupe</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-taupe-dark'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.dark-taupe</code></p>
+    <p class='mt0'><code>.bg-dark-taupe</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-offwhite'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.offwhite</code></p>
+    <p class='mt0'><code>.bg-offwhite</code></p>
+  </div>
+</div>
+<div class="row mt4 mb6">
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-gray-lt'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.light-gray</code></p>
+    <p class='mt0'><code>.bg-light-gray</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-gray-mid'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.middle-gray</code></p>
+    <p class='mt0'><code>.bg-middle-gray</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-gray-dark'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.dark-gray</code></p>
+    <p class='mt0'><code>.bg-dark-gray</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-brown'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.brown</code></p>
+    <p class='mt0'><code>.bg-brown</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-brown-dark'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.dark-brown</code></p>
+    <p class='mt0'><code>.bg-dark-brown</code></p>
+  </div>
+  <div class="col-md-2">
+    <h3 class='sans tracked f0 tt-u mb1 bold'>sample</h3>
+    <div class='swatch bg-black'></div>
+    <h3 class='sans tracked f0 tt-u mb0 bold'>classes</h3>
+    <p class='mv0'><code>.black</code></p>
+    <p class='mt0'><code>.bg-black</code></p>
+  </div>
+</div>
+<h3 class='sans tracked f0 tt-u mb0 ml1 bold'>wilden ui</h3>
+<h2 class='mt0'>Buttons</h2>
+<hr>
+<p class='f3 mt5 measure'>
+  Buttons are the primary way of interacting with the site.
+</p>
+<p class='measure mb3'>
+  It’s important to keep buttons clear and consistent. A user should be 
+  able to navigate with as little cognitive overhead as possible. We do 
+  this by standardizing button styles and their implementations.
+</p>
+<div class='row mv4'>
+  <div class='col-md-4'>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>primary</h3>
+    <a class='btn btn-mustard mb4'>button text</a>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>notes</h3>
+    <p class='mb4'>
+      Primary focus CTAs <br>
+      Dark or light background
+    </p>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>markup</h3>
+<pre class='code measure pa4 mb4'>
+&lt;a class='btn btn-mustard'&gt;
+  button tenxt
+&lt;/a&gt;
+</pre>
+  </div>
+  <div class='col-md-4'>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>black</h3>
+    <a class='btn btn-black mb4'>button text</a>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>notes</h3>
+    <p class='mb4'>
+      Default for internal navigation <br>
+      Light background
+    </p>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>markup</h3>
+<pre class='code measure pa4 mb4'>
+&lt;a class='btn btn-black'&gt;
+  button tenxt
+&lt;/a&gt;
+</pre>
+  </div>
+  <div class='col-md-4'>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>outline</h3>
+    <a class='btn btn-outline mb4'>button text</a>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>notes</h3>
+    <p class='mb4'>
+      Secondary internal nav <br>
+      Solid color light backgrounds
+    </p>
+    <h3 class='sans tracked f0 tt-u mb3 bold'>markup</h3>
+<pre class='code measure pa4 mb4'>
+&lt;a class='btn btn-outline'&gt;
+  button tenxt
+&lt;/a&gt;
+</pre>
+  </div>
+</div>
+<div class='row mt4 bg-dark-gray pa4 mb6'>
+  <div class='col-md-4'>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>danger</h3>
+    <a class='btn btn-danger mb4'>button text</a>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>notes</h3>
+    <p class='mb4'>
+      Marketing CTAs <br>
+      Dark or light background
+    </p>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>markup</h3>
+<pre class='code measure mb4'>
+&lt;a class='btn btn-danger'&gt;
+  button tenxt
+&lt;/a&gt;
+</pre>
+  </div>
+  <div class='col-md-4'>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>white</h3>
+    <a class='btn btn-white mb4'>button text</a>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>notes</h3>
+    <p class='mb4'>
+      Default for internal navigation <br>
+      Dark background
+    </p>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>markup</h3>
+<pre class='code measure mb4'>
+&lt;a class='btn btn-white'&gt;
+  button tenxt
+&lt;/a&gt;
+</pre>
+
+  </div>
+  <div class='col-md-4'>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>white outline</h3>
+    <a class='btn btn-white-outline mb4'>button text</a>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>notes</h3>
+    <p class='mb4'>
+      Secondary internal nav <br>
+      Solid color dark backgrounds
+    </p>
+    <h3 class='sans tracked f0 tt-u mb3 bold middle-gray'>markup</h3>
+<pre class='code measure mb4'>
+&lt;a class='btn btn-white-outline'&gt;
+  button tenxt
+&lt;/a&gt;
+</pre>
+  </div>
+</div>
+<h3 class='sans tracked f0 tt-u mb0 ml1 bold'>wilden ui</h3>
+<h2 class='mt0'>Cards</h2>
+<hr>
+<p class='f3 mt5 measure'>
+  Cards with raw HTML
+</p>
+<p class='measure mb3'>
+  In this part of the style guide we'll see how cards are broken
+  down into composable components
+</p>
