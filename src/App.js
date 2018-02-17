@@ -47,7 +47,7 @@ class App extends Component {
           <ds.Column span={ 7 }>
             <LeftPanel>
               <ds.Headline className='tl white'>
-                The fastest way to get <br/>
+                The fastest way to get
                 around a race course
               </ds.Headline>
               <ds.Lead className='mb5 tl silver'>
