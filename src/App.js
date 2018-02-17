@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import * as ds from './uiLibrary'
 
 const ViewportHeightDiv = styled(ds.Row)`
-  background-image: radial-gradient(66.666% 66.666% at 75% 50%, #424242 0%,#000 100%);
+  background-image: radial-gradient(66.666% 66.666% at 75% 50%, rgb(66, 66, 66) 0%, rgb(0, 0, 0) 100%);
   @media screen and (min-width: ${ ds.mq.medium }) {
     height: 100vh;
   }
