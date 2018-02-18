@@ -12,6 +12,4 @@ const StyledHeroImage = styled.img`
   max-width: 380px
 `
 
-const HeroImage = props => <StyledHeroImage src='new-wave.png'/>
-
-export default HeroImage
+export const HeroImage = props => <StyledHeroImage src='new-wave.png'/>

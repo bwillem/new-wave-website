@@ -15,6 +15,4 @@ const StyledLogo = styled.img`
 
 const Logo = props => <StyledLogo src='new-wave-logo-white.png' />
 
-const NavBar = props => <StyledNavBar><Logo /></StyledNavBar>
-
-export default NavBar
+export const NavBar = props => <StyledNavBar><Logo /></StyledNavBar>

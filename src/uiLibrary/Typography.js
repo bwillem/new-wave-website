@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 import { mq } from './'
 
+export const P = styled.p`
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1.5;
+`
+
 export const Headline = styled.h1`
   font-size: 3em;
   font-weight: 300;

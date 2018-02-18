@@ -7,7 +7,7 @@ export * from './Column'
 export * from './FixedWidthRow'
 
 // typography
-export * from './Headings'
+export * from './Typography'
 export * from './ColoredText'
 
 // UI components
