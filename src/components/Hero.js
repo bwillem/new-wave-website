@@ -48,7 +48,7 @@ export const Hero = props => <React.Fragment>
         </ds.Headline>
         <ds.Lead className='mb5 tl silver'>
           Made for inshore one-design racing,
-          new wave™ calculates the metrics you care about
+          new wave calculates the metrics you care about
           and delivers them straight to your phone
         </ds.Lead>
         <StyledAppStore src='app-store.png' />

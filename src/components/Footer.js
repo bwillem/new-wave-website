@@ -1,9 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import * as ds from '../uiLibrary'
 
 const StyledFooterWrap = styled.footer`
-  background: black  
+  background-color: black;
+  padding: 8em
 `
+
 const StyledFooterLogo = styled.img`
   max-width: 76px
 `
